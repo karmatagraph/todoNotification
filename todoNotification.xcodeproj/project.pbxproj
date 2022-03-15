@@ -13,6 +13,7 @@
 		484AF26C27E04D4E00D4DB81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484AF26A27E04D4E00D4DB81 /* Main.storyboard */; };
 		484AF26E27E04D5100D4DB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484AF26D27E04D5100D4DB81 /* Assets.xcassets */; };
 		484AF27127E04D5100D4DB81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484AF26F27E04D5100D4DB81 /* LaunchScreen.storyboard */; };
+		484AF27927E053B500D4DB81 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484AF27827E053B500D4DB81 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		484AF26D27E04D5100D4DB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		484AF27027E04D5100D4DB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484AF27227E04D5100D4DB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484AF27827E053B500D4DB81 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				484AF26D27E04D5100D4DB81 /* Assets.xcassets */,
 				484AF26F27E04D5100D4DB81 /* LaunchScreen.storyboard */,
 				484AF27227E04D5100D4DB81 /* Info.plist */,
+				484AF27827E053B500D4DB81 /* AddViewController.swift */,
 			);
 			path = todoNotification;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				484AF26927E04D4E00D4DB81 /* ViewController.swift in Sources */,
 				484AF26527E04D4E00D4DB81 /* AppDelegate.swift in Sources */,
+				484AF27927E053B500D4DB81 /* AddViewController.swift in Sources */,
 				484AF26727E04D4E00D4DB81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
