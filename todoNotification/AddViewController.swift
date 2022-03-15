@@ -24,6 +24,7 @@ class AddViewController: UIViewController {
     @IBAction func saveBtnClicked(_ sender: UIButton) {
         if let titleText = titleLbl.text, !titleText.isEmpty, let bodyText = bodyLbl.text, !bodyText.isEmpty{
             let targetDate = datePicker.date
+            completion?(titleText, bodyText, targetDate)
         }
         
     }
